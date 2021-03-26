@@ -1,6 +1,4 @@
-# UILibTest
-
-  # Quick Links
+# Quick Links
   * [MaterialUI Lib](#MaterialUI-Lib)
 
 ## MaterialUI Lib: 
