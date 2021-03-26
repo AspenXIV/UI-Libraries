@@ -1,9 +1,9 @@
 # UILibTest
 
   # Quick Links
-  * [MaterialUI Lib](#MaterialUILib)
+  * [MaterialUI Lib](#MaterialUI Lib)
 
-## MaterialUILib: 
+## MaterialUI Lib: 
  ![JustARandomString1](https://i.imgur.com/11745MO.png)
 ```lua
 local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/SkyeX9/UILibTest/master/MaterialUI.lua"))()
