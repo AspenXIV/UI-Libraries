@@ -1,7 +1,7 @@
 # UILibTest
 
   # Quick Links
-  * [MaterialUI Lib](#MaterialUI Lib)
+  * [MaterialUI Lib](#MaterialUI-Lib)
 
 ## MaterialUI Lib: 
  ![JustARandomString1](https://i.imgur.com/11745MO.png)
