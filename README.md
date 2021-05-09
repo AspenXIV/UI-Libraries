@@ -1,8 +1,8 @@
 # Quick Links
-  * [Dark Material UI Lib](#Dark-Material-UI-Lib:)
+  * [Dark Material UI Lib](#Dark-Material-UI-Lib)
   * [MaterialUI Lib](#Material-UI-Lib)
 
-## Dark Material UI Lib Lib: 
+## Dark Material UI Lib: 
 ```lua
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/SkyeX9/UI-Libraries/master/Dark%20Material%20UI%20Lib", true))()
 
