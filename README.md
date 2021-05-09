@@ -4,16 +4,16 @@
 
 ## Dark Material UI Lib: 
 ```lua
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/SkyeX9/UI-Libraries/master/Dark%20Material%20UI%20Lib", true))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/SkyeX9/UI-Libraries/master/FaltMatUILib.lua", true))()
 
-local Window = Library:CreateWindow("thing")
+local Window = Library:CreateWindow("Miner's Haven")
+local folder = Window:AddFolder('Main Features')
 
-local folder = Window:AddFolder('stuff')
-folder:AddLabel({text = "This is a Label"})
+folder:AddLabel({text = "Ore Options"})
 folder:AddToggle({text = "This is a toggle", callback = function(v) print(v) end})
 folder:AddButton({text = 'button', callback = function() print('button clicked') end})
 folder:AddBind{text = "Gayness",key = "F",hold = true}
-folder:AddSlider({text = 'slider', min = 1, max = 100, callback = function(v) print(v) end})
+folder:AddSlider({text = 'slider', min = 1, max = 100, dual = true, callback = function(v) print(v) end})
 folder:AddList({text = 'option', values = {'yo', 'yes'}, callback = function(v) print(v) end})
 folder:AddBox({text = 'text box', callback = function(v) print(v) end})
 folder:AddColor({text = 'color', callback = function(v) print(v) end})
