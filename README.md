@@ -1,7 +1,25 @@
 # Quick Links
-  * [MaterialUI Lib](#MaterialUI-Lib)
+  * [Dark Material UI Lib](#Dark-Material-UI-Lib:)
+  * [MaterialUI Lib](#Material-UI-Lib)
 
-## MaterialUI Lib: 
+## Dark Material UI Lib Lib: 
+```lua
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/SkyeX9/UI-Libraries/master/Dark%20Material%20UI%20Lib", true))()
+
+local Window = Library:CreateWindow("thing")
+
+local folder = Window:AddFolder('stuff')
+folder:AddLabel({text = "This is a Label"})
+folder:AddToggle({text = "This is a toggle", callback = function(v) print(v) end})
+folder:AddButton({text = 'button', callback = function() print('button clicked') end})
+folder:AddBind{text = "Gayness",key = "F",hold = true}
+folder:AddSlider({text = 'slider', min = 1, max = 100, callback = function(v) print(v) end})
+folder:AddList({text = 'option', values = {'yo', 'yes'}, callback = function(v) print(v) end})
+folder:AddBox({text = 'text box', callback = function(v) print(v) end})
+folder:AddColor({text = 'color', callback = function(v) print(v) end})
+Library:Init()
+```
+## Material UI Lib: 
  ![JustARandomString1](https://i.imgur.com/11745MO.png)
 ```lua
 local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/SkyeX9/UILibTest/master/MaterialUI.lua"))()
