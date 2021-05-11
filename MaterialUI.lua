@@ -610,7 +610,14 @@ function TryAddMenu(Object, Menu, ReturnTable)
 			MenuToggle = not MenuToggle
 			TweenService:Create(MenuBuild, TweenInfo.new(0.15), {Size = MenuToggle and UDim2.fromOffset(120,Size) or UDim2.fromOffset(120,0)}):Play()
 		end)
-
+		
+		function MenuButton:SetText(Value)
+			Object.Text = Value
+		end
+		function MenuButton:GetText()
+			return Object.Text
+		end
+		
 		table.foreach(Menu, function(Option, Value)
 			if typeof(Value) == "function" then
 				local MenuOption = Objects.new("SmoothButton")
