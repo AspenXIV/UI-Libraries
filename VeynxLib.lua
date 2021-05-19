@@ -223,7 +223,7 @@ do
 				Name = "Main",
 				BackgroundTransparency = 1,
 				Position = UDim2.new(0.25, 0, 0.052435593, 0),
-				Size = UDim2.new(0, 650, 0, 275),
+				Size = UDim2.new(0, 670, 0, 275),
 				Image = "rbxassetid://4641149554",
 				ImageColor3 = themes.Background,
 				ScaleType = Enum.ScaleType.Slice,
@@ -472,7 +472,7 @@ do
         
         if self.position then
             utility:Tween(container, {
-                Size = UDim2.new(0, 511, 0, 428),
+                Size = UDim2.new(0, 670, 0, 275),
                 Position = self.position
             }, 0.2)
             wait(0.2)
@@ -490,7 +490,7 @@ do
             wait(0.2)
             
             utility:Tween(container, {
-                Size = UDim2.new(0, 511, 0, 0),
+                Size = UDim2.new(0, 670, 0, 0),
                 Position = self.position + UDim2.new(0, 0, 0, 428)
             }, 0.2)
             wait(0.2)
