@@ -491,7 +491,7 @@ do
             
             utility:Tween(container, {
                 Size = UDim2.new(0, 670, 0, 0),
-                Position = self.position + UDim2.new(0, 0, 0, 428)
+                Position = self.position + UDim2.new(0, 0, 0, 275)
             }, 0.2)
             wait(0.2)
         end
