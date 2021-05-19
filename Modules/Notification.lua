@@ -2,23 +2,23 @@
     open source, enjoy!
     example usage:
     
-    local notification = loadstring(game:HttpGet('https://raw.githubusercontent.com/SkyeX9/UI-Libraries/master/Modules/Notification.lua'))()
-    notification({
-        Title = 'Cappuccino',
-        Text = 'very cool notification for gaming',
-        Image = 'rbxassetid://6353325673',    --optional
-        Options = {                           --optional 
-            'Yes',
-            'No',
-            'Cheese',
-            'Cancel',
-        },
-        CloseOnCallback = true,               --optional
-        Duration = 10,                        --optional
-        Callback = function(o)
-            print('Option '..o..' was chosen')
-        end,
-    })
+    local Notification = loadstring(game:HttpGet('https://raw.githubusercontent.com/SkyeX9/UI-Libraries/master/Modules/Notification.lua'))()
+    Notification({
+			Title = "UI Update",
+			Text = "Toggle is now set to Enabled",
+			Image = "rbxassetid://6353325673",    --optional
+			Options = {                           --optional 
+				"Yes",
+				"No",
+				"Cheese",
+				"Cancel",
+			},
+			CloseOnCallback = true,               --optional
+			Duration = 10,                        --optional
+			Callback = function(State)
+				print("Option "..State.." was chosen")
+			end,
+		})
 ]]
 
 local function instance(className,properties,children)
