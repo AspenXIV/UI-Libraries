@@ -2,7 +2,7 @@
     open source, enjoy!
     example usage:
     
-    local notification = loadstring(game:HttpGet('https://raw.githubusercontent.com/boop71/cappuccino/main/v3/notification.lua'))()
+    local notification = loadstring(game:HttpGet('https://raw.githubusercontent.com/SkyeX9/UI-Libraries/master/Modules/Notification.lua'))()
     notification({
         Title = 'Cappuccino',
         Text = 'very cool notification for gaming',
