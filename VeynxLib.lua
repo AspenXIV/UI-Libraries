@@ -477,7 +477,7 @@ do
             }, 0.2)
             wait(0.2)
             
-            utility:Tween(topbar, {Size = UDim2.new(1, 0, 0, 30)}, 0.2)
+            utility:Tween(topbar, {Size = UDim2.new(1, 0, 0, 32)}, 0.2)
             wait(0.2)
             
             container.ClipsDescendants = false
@@ -486,12 +486,12 @@ do
             self.position = container.Position
             container.ClipsDescendants = true
             
-            utility:Tween(topbar, {Size = UDim2.new(1, 0, 0, 30)}, 0.2)
+            utility:Tween(topbar, {Size = UDim2.new(1, 0, 0, 32)}, 0.2)
             wait(0.2)
             
             utility:Tween(container, {
                 Size = UDim2.new(0, 670, 0, 0),
-                Position = self.position + UDim2.new(0, 0, 0, 228)
+                Position = self.position + UDim2.new(0, 0, 0, 275)
             }, 0.2)
             wait(0.2)
         end
