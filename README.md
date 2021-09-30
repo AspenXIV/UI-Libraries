@@ -1,5 +1,5 @@
 # Quick Links
-  * [CSGO-Like UI Lib](#CSGOLike-UI-Lib)
+  * [CSGO-Like UI Lib](#csgo-like-ui-lib)
   * [Veynx UI Lib](#Veynx-UI-Lib)
   * [Dark Material UI Lib](#Dark-Material-UI-Lib)
   * [MaterialUI Lib](#Material-UI-Lib)
