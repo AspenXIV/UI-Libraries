@@ -47,7 +47,7 @@ function library:Window(TitleWhite)
     Cool.Position = UDim2.new(0.065, 0, 0.025, 0)
     Cool.Size = UDim2.new(0, 55, 0, 55)
     Cool.ZIndex = 2
-    Cool.Image = "rbxassetid://166652117"
+    Cool.Image = "rbxassetid://7616902365"
     BloxburgCool.Name = "BloxburgCool"
     BloxburgCool.Parent = MainUIFrame
     BloxburgCool.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
@@ -78,7 +78,7 @@ function library:Window(TitleWhite)
     BloxburgTitle.Position = UDim2.new(0.0148883378, 0, 0, 0)
     BloxburgTitle.Size = UDim2.new(0, 420, 0, 35)
     BloxburgTitle.Font = Enum.Font.GothamBold
-    BloxburgTitle.Text = "Preview"
+    BloxburgTitle.Text = "Made By: Riko"
     BloxburgTitle.TextColor3 = Color3.fromRGB(233, 233, 233)
     BloxburgTitle.TextSize = 15.000
     BloxburgTitle.TextXAlignment = Enum.TextXAlignment.Left
