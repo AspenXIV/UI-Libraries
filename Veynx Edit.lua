@@ -224,7 +224,8 @@ do
 				Image = "rbxassetid://4641149554",
 				ImageColor3 = themes.Background,
 				ScaleType = Enum.ScaleType.Slice,
-				SliceCenter = Rect.new(4, 4, 296, 296)
+				SliceCenter = Rect.new(4, 4, 296, 296),
+                Visible = false
 			}, {
 				utility:Create("ImageLabel", {
 					Name = "Glow",
