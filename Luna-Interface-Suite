@@ -6266,7 +6266,7 @@
     
                 Tab:CreateButton({
                     Name = "Delete Selected Config",
-                    Description = "Delete The Selected Config File",
+                    Description = "Delete your current config settings.",
                     Callback = function()
                         delfile(Luna.Folder .. "/settings/" .. selectedConfig .. ".luna")
     
