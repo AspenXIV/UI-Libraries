@@ -6270,7 +6270,7 @@
                     Callback = function()
                         delfile(Luna.Folder .. "/settings/" .. selectedConfig .. ".luna")
     
-                        configSelection:Set({ Options = Luna:RefreshConfigList() })
+                        configSelection:Set({ CurrentOption = {}, Options = Luna:RefreshConfigList() })
                         Luna:Notification({
                             Title = "Interface",
                             Icon = "info",
