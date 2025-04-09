@@ -6268,8 +6268,7 @@
                     Name = "Delete Selected Config",
                     Description = "Delete The Selected Config File",
                     Callback = function()
-                        delfile(Luna.Folder .. "/settings/".. selectedConfig)
-                        loadlabel:Set({ Text = "None" })
+                        delfile(Luna.Folder .. "/settings/" .. selectedConfig .. ".luna")
     
                         configSelection:Set({ Options = Luna:RefreshConfigList() })
                         Luna:Notification({
