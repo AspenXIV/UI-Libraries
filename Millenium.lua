@@ -1,6 +1,9 @@
 --[[
-    Millenium Library
+
+    Milenium Library
     -> Made by @finobe 
+    -> Kind of got bored idk what to do with life
+    -> Idk who or why this got leaked, ui was VERY popular and high in demand with customers
 ]]
 
 -- Variables 
@@ -1959,6 +1962,10 @@
                         BackgroundColor3 = rgb(255, 255, 255)
                     });
                     
+                    if cfg.name then
+                        items["name"].Text = cfg.name
+                    end
+
                     if cfg.info then 
                         items[ "info" ] = library:create( "TextLabel" , {
                             FontFace = fonts.small;
