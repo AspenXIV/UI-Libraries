@@ -1,5 +1,5 @@
 --[[
-    Milenium Library
+    Millenium Library
     -> Made by @finobe 
 ]]
 
